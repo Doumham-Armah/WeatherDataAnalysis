@@ -2,6 +2,8 @@
 
 This is a little project showcasing effect of moving averages on line plots.
 
+In this prject, I analyse and compare the changes in weather temperatures of Istnabul against the rest of the world.
+
 I first used SQL on the workspace provided. I downloaded a csv file with only the data on Istanbul since that is where I live. I also downloaded all the data for the global temperatures. After that, I used pandas and opened these 2 csv files as 2 DataFrames.
 
 In addition, I used the method df.rolling() with a window size of 7 to calculate the moving average for each 7 data points at a time with df.rolling(7). This method calculates the moving average by taking 7 values at a time and sliding down by one for each new data point. I added the moving average for each DataFrame in a column called it MA.
